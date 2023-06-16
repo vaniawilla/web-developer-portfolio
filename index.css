@@ -1,0 +1,131 @@
+/* CSS RESET */
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+/* CSS RESET */
+
+
+/*CLASSES*/
+
+body {
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+  /* Header */
+
+  .header-title {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+
+  .header-intro {
+    font-size: 18px;
+  }
+
+  /* Navbar */
+  .navbar {
+    background-color: darkolivegreen;
+  }
+
+  .navbar-nav {
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-item {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  .nav-link {
+    color: lightslategray;
+    text-decoration: none;
+  }
+
+  /* Projects Styles */
+  .projects-section {
+    padding: 40px 0;
+  }
+
+  .section-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+
+  .card-img-top {
+    max-height: 200px;
+    object-fit: cover;
+  }
+
+  .card-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .card-text {
+    font-size: 16px;
+  }
+
+  /* Contact Section */
+  .contact-section {
+    padding: 40px 0;
+  }
+
+  .contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  .btn-primary {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+    /* Tools Section */
+    .tools-section {
+      padding: 40px 0;
+    }
+
+  /* Responsive */
+  @media (max-width: 767px) {
+    .header-title {
+      font-size: 28px;
+    }
+  }
